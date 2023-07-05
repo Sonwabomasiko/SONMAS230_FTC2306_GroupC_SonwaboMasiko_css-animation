@@ -1,0 +1,17 @@
+#so{
+  width: 200px;
+  height: 200px;
+  animation: k 1s linear infinite;
+}
+
+@keyframes k{
+  0%{
+    filter: hue-rotate(180deg);
+    transform: rotateX(180deg);
+    
+  }
+  100%{
+    filter: hue-rotate(360deg);
+   transform: rotateX(360deg)
+  }
+}
